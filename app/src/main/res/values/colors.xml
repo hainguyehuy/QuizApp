@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#AA77FF</color>
+    <color name="textColorHints">#FFBFA9</color>
+    <color name="textAw">#2C3333</color>
+    <color name="textQuestion">#A84448</color>
+    <color name="textTopic">#E9A178</color>
+    <color name="bg_solid">#DDF7E3</color>
+    <color name="bg_Button">#865DFF</color>
+
+
+</resources>

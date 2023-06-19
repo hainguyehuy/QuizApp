@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_app">Quiz App!</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name.</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="que1">Chị ngã em ...</string>
+    <string name="que2">Ăn quả nhớ kẻ ... </string>
+    <string name="que3">Uống nước nhớ ...</string>
+    <string name="que4">Con hơn cha là nhà có ...</string>
+    <string name="que5">Một con ngựa đau, Cả tàu bỏ ...</string>
+
+</resources>
