@@ -11,32 +11,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="16dp">
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="horizontal"-->
-<!--            >-->
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:gravity="top|left"-->
-<!--                android:layout_marginStart="10dp"-->
-<!--                android:layout_marginBottom="70dp"-->
-<!--                tools:text="Hello: "-->
-<!--                android:textSize="20sp"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textStyle="bold"-->
-<!--                />-->
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                tools:text="Hải"-->
-<!--                android:textSize="20sp"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textStyle="bold"-->
-<!--                />-->
-<!--        </LinearLayout>-->
+        android:padding="16dp"
+        android:background="#FEFFE4">
+
         <TextView
             android:id="@+id/tv_topic"
             android:layout_width="match_parent"
@@ -98,7 +75,7 @@
             android:layout_height="50dp"
             tools:text="hehe"
             android:textSize="22sp"
-            android:textColor="@color/textAw"
+            android:textColor="@color/black"
             android:layout_margin="10dp"
             android:gravity="center"
             android:background="@drawable/background_aw"
@@ -111,7 +88,7 @@
             android:gravity="center"
             tools:text="hehe"
             android:textSize="22sp"
-            android:textColor="@color/textAw"
+            android:textColor="@color/black"
             android:background="@drawable/background_aw"
 
 
@@ -124,7 +101,7 @@
             android:gravity="center"
             tools:text="hehe"
             android:textSize="22sp"
-            android:textColor="@color/textAw"
+            android:textColor="@color/black"
             android:background="@drawable/background_aw"
 
 
@@ -137,19 +114,19 @@
             android:gravity="center"
             tools:text="hehe"
             android:textSize="22sp"
-            android:textColor="@color/textAw"
+            android:textColor="@color/black"
             android:background="@drawable/background_aw"
 
             />
 
         <Button
             android:id="@+id/btnSubmit"
-            android:layout_width="100sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Submit"
+            android:text="@string/submit"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/bg_Button"/>
+            android:textColor="#FFF7BC"
+            android:backgroundTint="#FF6B6B"/>
     </LinearLayout>
 </ScrollView>

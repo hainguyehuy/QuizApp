@@ -1,13 +1,23 @@
 package com.example.quizapp
 
+import kotlin.random.Random
+
 object Constrant {
+
+    const val USERNAME :String ="userName"
+    const val totalQuestion:String = "totalQuestion"
+    const val correctQuestion :String = "correcQuestion"
+
+
+
+
     fun getQuestion():ArrayList<Question>{
         val questionList :ArrayList<Question> = ArrayList<Question>()
 
         val que1 = Question(
             1,"Điền từ còn thiếu vào câu","Chị ngã em ...",
             "đá","nâng","kệ","cười",
-            3
+            2
         )
         questionList.add(que1)
         val que2 = Question(

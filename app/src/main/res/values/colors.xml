@@ -4,11 +4,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="textColor">#AA77FF</color>
     <color name="textColorHints">#FFBFA9</color>
-    <color name="textAw">#2C3333</color>
+    <color name="textAw">#16213E</color>
     <color name="textQuestion">#A84448</color>
     <color name="textTopic">#E9A178</color>
     <color name="bg_solid">#DDF7E3</color>
     <color name="bg_Button">#865DFF</color>
+    <color name="correct">#82CD47</color>
+    <color name="wrong">#FF0000</color>
 
 
 </resources>
